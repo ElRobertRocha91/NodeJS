@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.container-layout {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+nav {
+    text-align: center;
+    background-color: aquamarine;
+    font-size: x-large;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    font-size: x-large;
+}
