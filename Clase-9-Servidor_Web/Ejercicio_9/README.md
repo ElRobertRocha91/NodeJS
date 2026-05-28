@@ -27,3 +27,9 @@
 4. Configura un Middleware básico que muestre por consola el método y url solicitada, cuando sea visitada desde un navegador.
 
 5. Agrega una ruta `/ping` que responda con el texto plano "/pong" cuando sea visitada desde un navegador.
+
+## Extra - Implementar Testing con Jest y Supertest
+
+### Misión 3:
+
+1. Implementa Unit Testing, que verifique que cada vez que un navegador visite la ruta `http://localhost:3000`, se este recibiendo un código de estado `200` y el texto `/pong`.
