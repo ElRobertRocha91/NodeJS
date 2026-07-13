@@ -31,9 +31,9 @@ app.use((req, res, next) => {
 });
 
 // Rutas
-// app.get('/', (req, res) => {
-//     res.status(200).send("<h1>Hola</h1>");
-// });
+app.get('/', (req, res) => {
+    res.status(200).send("Proyecto Integrador Final en producción 🚀");
+});
 
 // Middleware para manejar la ruta de autenticación del usuario
 app.use('/auth', authRouter);
